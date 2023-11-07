@@ -4,7 +4,12 @@ Tipo list é mutável
 Suporta vários valores de qualquer tipo
 Conhecimentos reutilizáveis - indice e fatiamento
 Métodos úteis: 
-    apped, insert, pop, del, clear, extend, +
+    apped = adiciona um indice no final da lista
+    insert = adiciona um indice (posição, valor)
+    pop = remove e retorna o indice
+    del = deleta o indice
+    clear = 
+    extend =
 Create Read update Deleted
 
 """
@@ -44,4 +49,11 @@ del lista[-1] ## Remove o último indice da lista
 ## Insert = possui dois parâmetros, a posição do indice e o valor á ser adicionado
 
 lista.insert(0, 'Fernando')
+print(lista)
+
+listaB = ['Parker']
+## Extend
+
+lista.extend(listaB)
+
 print(lista)
