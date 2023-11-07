@@ -52,8 +52,16 @@ lista.insert(0, 'Fernando')
 print(lista)
 
 listaB = ['Parker']
-## Extend
+## Extend = retornará None, então não retorna nenhum valor, porém ele modifica o valor inicial ()
 
 lista.extend(listaB)
 
 print(lista)
+
+###### Concatenando listas
+
+listC = [1,2,3,4,5]
+listD = [6,7,8,9,10]
+
+listE = listC + listD
+print(listE)
