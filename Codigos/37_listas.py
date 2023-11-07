@@ -3,7 +3,9 @@ Listas em Python
 Tipo list é mutável
 Suporta vários valores de qualquer tipo
 Conhecimentos reutilizáveis - indice e fatiamento
-Métodos úteis: apped, insert, pop, del, clear, extend, +
+Métodos úteis: 
+    apped, insert, pop, del, clear, extend, +
+Create Read update Deleted
 
 """
 
@@ -19,3 +21,27 @@ print(lista[2].upper(), type(lista[3]))
 lista[2] = "Marques"
 
 print(lista[2])
+
+del lista[4]
+
+print(lista[3])
+
+## Adicionando indices na lista
+
+lista.append([10,20,30,40,[10,20]])
+print(lista)
+
+## Remove o último indice da lista
+
+lista.pop() ## pop retorna o valor que foi removido.
+
+print(lista)
+
+del lista[-1] ## Remove o último indice da lista
+
+########### DEL APAGA, POP REMOVE E RETORNA O VALOR DO ÍNDICE ###########
+
+## Insert = possui dois parâmetros, a posição do indice e o valor á ser adicionado
+
+lista.insert(0, 'Fernando')
+print(lista)
